@@ -31,4 +31,5 @@ iwr https://deno.land/x/install/install.ps1 | iex
 安装可能因为ssl的原因导致失败，如果失败运行下面的命令
 
 ```
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType::Tls12
 ```
