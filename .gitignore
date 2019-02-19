@@ -1,0 +1,15 @@
+*.log
+.DS_Store
+
+.idea/
+.svn/
+.eslintcache
+.vscode
+
+npm-debug.log
+node_modules/
+package-lock.json
+
+dist/assets
+dist/**
+tools/filemap.json
