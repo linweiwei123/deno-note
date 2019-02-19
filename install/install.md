@@ -14,7 +14,7 @@
 curl -L http://cnd.yintage.com/install.py | python
 ```
 
-第二步：运行如下命令（本质：配置环境变量，把上一步运行后输出的文字复制到终端运行，例如）
+第二步：把上一步运行后输出的文字复制到终端运行，例如
 ```
     echo export PATH="/Users/xxx/.deno/bin":\$PATH >> $HOME/.bash_profile
 ```
