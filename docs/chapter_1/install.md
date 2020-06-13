@@ -40,10 +40,12 @@ typescript 3.9.2
 which deno
 ```
 得到安装所在路径
-
+```
 /Users/xxx/.deno/bin/deno
 
-通过rm 命令删除
+// 通过rm 命令删除
+rm /Users/xxx/.deno/bin/deno
+```
 
 进入根目录
 ```
